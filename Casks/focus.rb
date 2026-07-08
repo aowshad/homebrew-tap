@@ -7,7 +7,7 @@ cask "focus" do
   desc "Zero-dependency Pomodoro timer with tasks, streaks and analytics"
   homepage "https://github.com/aowshad/Focus"
 
-  depends_on macos: ">= :monterey"
+depends_on macos: :monterey
 
   app "Focus.app"
 
